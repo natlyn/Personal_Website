@@ -8,6 +8,6 @@ A static website built with **HTML/CSS** and **JavaScript**
   
 ## What it looks like
 
-![Preview ](/img/snippet.png "Website preview")
+![Preview ](img/snippet.png "Website preview")
 
 
