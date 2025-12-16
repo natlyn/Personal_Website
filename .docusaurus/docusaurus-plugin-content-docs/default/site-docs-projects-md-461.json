@@ -1,0 +1,22 @@
+{
+  "id": "projects",
+  "title": "Projects",
+  "description": "svdfvdf",
+  "source": "@site/docs/projects.md",
+  "sourceDirName": ".",
+  "slug": "/projects",
+  "permalink": "/Personal_Website/docs/projects",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "projects",
+    "title": "Projects"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/Personal_Website/docs/intro"
+  }
+}

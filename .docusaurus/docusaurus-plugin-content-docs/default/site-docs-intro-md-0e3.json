@@ -1,0 +1,22 @@
+{
+  "id": "intro",
+  "title": "Intro",
+  "description": "",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/Personal_Website/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "intro",
+    "title": "Intro"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Projects",
+    "permalink": "/Personal_Website/docs/projects"
+  }
+}
