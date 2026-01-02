@@ -42,22 +42,18 @@
       "plugin": "plugin---personal-website-docusaurus-debugb-38-4ee"
     }
   },
-  "/Personal_Website/-fa5": {
+  "/Personal_Website/-209": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---personal-website-aba-48e"
     }
   },
-  "/Personal_Website/-cd3": {
+  "/Personal_Website/-81c": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---personal-website-6-fc-168"
   },
-  "/Personal_Website/-cb1": {
+  "/Personal_Website/-442": {
     "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/Personal_Website/intro-6bd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---personal-website-intro-0-e-3-60d"
   },
   "/Personal_Website/port1-b21": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -74,5 +70,9 @@
   "/Personal_Website/prompts-30e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---personal-website-promptse-58-e0c"
+  },
+  "/Personal_Website/-a5a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---personal-website-c-37-447"
   }
 }

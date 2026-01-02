@@ -8,11 +8,11 @@
           "label": "Next",
           "isLast": true,
           "path": "/Personal_Website/",
-          "mainDocId": "intro",
+          "mainDocId": "index",
           "docs": [
             {
-              "id": "intro",
-              "path": "/Personal_Website/intro",
+              "id": "index",
+              "path": "/Personal_Website/",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -40,8 +40,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/Personal_Website/intro",
-                "label": "intro"
+                "path": "/Personal_Website/",
+                "label": "index"
               }
             }
           }

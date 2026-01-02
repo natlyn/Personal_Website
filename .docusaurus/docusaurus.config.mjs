@@ -35,28 +35,24 @@ export default {
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "portfolio",
-          "position": "left",
-          "label": "Intro"
+          "to": "/",
+          "label": "Home",
+          "position": "left"
         },
         {
-          "type": "doc",
-          "docId": "projects",
-          "position": "left",
-          "label": "Projects"
+          "to": "/projects",
+          "label": "Projects",
+          "position": "left"
         },
         {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "About Me"
+          "to": "/",
+          "label": "About Me",
+          "position": "left"
         },
         {
-          "type": "doc",
-          "docId": "port1",
-          "position": "left",
-          "label": "Tic-Tac-Toe"
+          "to": "/port1",
+          "label": "Tic-Tac-Toe",
+          "position": "left"
         },
         {
           "type": "doc",
@@ -79,20 +75,20 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Intro",
-              "to": "/docs/portfolio"
+              "label": "Home",
+              "to": "/"
             },
             {
               "label": "Projects",
-              "to": "/docs/projects"
+              "to": "/projects"
             },
             {
               "label": "About Me",
-              "to": "/docs/intro"
+              "to": "/"
             },
             {
               "label": "Prompts",
-              "to": "/docs/prompts"
+              "to": "/prompts"
             }
           ]
         },

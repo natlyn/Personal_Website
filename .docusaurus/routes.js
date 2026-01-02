@@ -39,22 +39,16 @@ export default [
   },
   {
     path: '/Personal_Website/',
-    component: ComponentCreator('/Personal_Website/', 'fa5'),
+    component: ComponentCreator('/Personal_Website/', '209'),
     routes: [
       {
         path: '/Personal_Website/',
-        component: ComponentCreator('/Personal_Website/', 'cd3'),
+        component: ComponentCreator('/Personal_Website/', '81c'),
         routes: [
           {
             path: '/Personal_Website/',
-            component: ComponentCreator('/Personal_Website/', 'cb1'),
+            component: ComponentCreator('/Personal_Website/', '442'),
             routes: [
-              {
-                path: '/Personal_Website/intro',
-                component: ComponentCreator('/Personal_Website/intro', '6bd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
               {
                 path: '/Personal_Website/port1',
                 component: ComponentCreator('/Personal_Website/port1', 'b21'),
@@ -76,6 +70,12 @@ export default [
               {
                 path: '/Personal_Website/prompts',
                 component: ComponentCreator('/Personal_Website/prompts', '30e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Personal_Website/',
+                component: ComponentCreator('/Personal_Website/', 'a5a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
