@@ -42,32 +42,37 @@
       "plugin": "plugin---personal-website-docusaurus-debugb-38-4ee"
     }
   },
-  "/Personal_Website/docs-867": {
+  "/Personal_Website/-fa5": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---personal-website-docsaba-3bf"
+      "plugin": "plugin---personal-website-aba-48e"
     }
   },
-  "/Personal_Website/docs-da4": {
+  "/Personal_Website/-cd3": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---personal-website-docs-721-e25"
+    "__props": "__props---personal-website-6-fc-168"
   },
-  "/Personal_Website/docs-ce7": {
+  "/Personal_Website/-cb1": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/Personal_Website/docs/intro-df8": {
+  "/Personal_Website/intro-6bd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---personal-website-docs-intro-0-e-3-3d5"
+    "content": "content---personal-website-intro-0-e-3-60d"
   },
-  "/Personal_Website/docs/projects-1da": {
+  "/Personal_Website/port1-b21": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---personal-website-docs-projects-461-f42"
+    "content": "content---personal-website-port-1897-b4c"
   },
-  "/Personal_Website/-0b9": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
-    "__context": {
-      "plugin": "plugin---personal-website-a-74-741"
-    },
-    "config": "config---personal-website-5-e-9-880"
+  "/Personal_Website/portfolio-25b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---personal-website-portfolio-16-f-e42"
+  },
+  "/Personal_Website/projects-7b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---personal-website-projects-461-d8b"
+  },
+  "/Personal_Website/prompts-30e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---personal-website-promptse-58-e0c"
   }
 }

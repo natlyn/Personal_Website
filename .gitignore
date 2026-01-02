@@ -1,0 +1,12 @@
+/node_modules/
+/.docusaurus/
+/site/
+/build/
+/dist/
+package-lock.json
+.env
+/.cache/
+/.parcel-cache/
+/.vscode/
+npm-debug.log*
+.DS_Store

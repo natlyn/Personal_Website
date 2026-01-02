@@ -38,26 +38,44 @@ export default [
     exact: true
   },
   {
-    path: '/Personal_Website/docs',
-    component: ComponentCreator('/Personal_Website/docs', '867'),
+    path: '/Personal_Website/',
+    component: ComponentCreator('/Personal_Website/', 'fa5'),
     routes: [
       {
-        path: '/Personal_Website/docs',
-        component: ComponentCreator('/Personal_Website/docs', 'da4'),
+        path: '/Personal_Website/',
+        component: ComponentCreator('/Personal_Website/', 'cd3'),
         routes: [
           {
-            path: '/Personal_Website/docs',
-            component: ComponentCreator('/Personal_Website/docs', 'ce7'),
+            path: '/Personal_Website/',
+            component: ComponentCreator('/Personal_Website/', 'cb1'),
             routes: [
               {
-                path: '/Personal_Website/docs/intro',
-                component: ComponentCreator('/Personal_Website/docs/intro', 'df8'),
+                path: '/Personal_Website/intro',
+                component: ComponentCreator('/Personal_Website/intro', '6bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Personal_Website/docs/projects',
-                component: ComponentCreator('/Personal_Website/docs/projects', '1da'),
+                path: '/Personal_Website/port1',
+                component: ComponentCreator('/Personal_Website/port1', 'b21'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Personal_Website/portfolio',
+                component: ComponentCreator('/Personal_Website/portfolio', '25b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Personal_Website/projects',
+                component: ComponentCreator('/Personal_Website/projects', '7b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Personal_Website/prompts',
+                component: ComponentCreator('/Personal_Website/prompts', '30e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -66,11 +84,6 @@ export default [
         ]
       }
     ]
-  },
-  {
-    path: '/Personal_Website/',
-    component: ComponentCreator('/Personal_Website/', '0b9'),
-    exact: true
   },
   {
     path: '*',

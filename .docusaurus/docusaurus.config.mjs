@@ -11,14 +11,14 @@ export default {
   "organizationName": "natlyn",
   "projectName": "Personal_Website",
   "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
   "favicon": "img/main_image.png",
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\src\\Personal_Website\\sidebar.js"
+          "sidebarPath": "C:\\src\\Personal_Website\\sidebar.js",
+          "routeBasePath": "/"
         },
         "theme": {
           "customCss": "C:\\src\\Personal_Website\\src\\css\\custom.css"
@@ -36,7 +36,7 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "portfolio",
           "position": "left",
           "label": "Intro"
         },
@@ -45,6 +45,24 @@ export default {
           "docId": "projects",
           "position": "left",
           "label": "Projects"
+        },
+        {
+          "type": "doc",
+          "docId": "intro",
+          "position": "left",
+          "label": "About Me"
+        },
+        {
+          "type": "doc",
+          "docId": "port1",
+          "position": "left",
+          "label": "Tic-Tac-Toe"
+        },
+        {
+          "type": "doc",
+          "docId": "prompts",
+          "position": "left",
+          "label": "Prompts"
         },
         {
           "href": "https://github.com/natlyn/Personal_Website",
@@ -62,11 +80,19 @@ export default {
           "items": [
             {
               "label": "Intro",
-              "to": "/docs/intro"
+              "to": "/docs/portfolio"
             },
             {
               "label": "Projects",
               "to": "/docs/projects"
+            },
+            {
+              "label": "About Me",
+              "to": "/docs/intro"
+            },
+            {
+              "label": "Prompts",
+              "to": "/docs/prompts"
             }
           ]
         },
@@ -256,6 +282,20 @@ export default {
     "localeConfigs": {}
   },
   "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
     "experimental_storage": {
       "type": "localStorage",
       "namespace": false
@@ -279,6 +319,7 @@ export default {
   "markdown": {
     "format": "mdx",
     "mermaid": false,
+    "emoji": true,
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
@@ -286,6 +327,10 @@ export default {
     },
     "anchors": {
       "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
     }
   }
 };
