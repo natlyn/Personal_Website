@@ -7,6 +7,8 @@ const config = {
   baseUrl: '/Personal_Website/',
   organizationName: 'natlyn',
   projectName: 'Personal_Website',
+  deploymentBranch: 'main',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/main_image.png',
