@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npx docusaurus start",
     "build": "npx docusaurus build",
-    "serve": "npx docusaurus serve"
+    "serve": "npx docusaurus serve" ,
+    "deploy": "npx docusaurus deploy"
   },
   "devDependencies": {
     "@docusaurus/core": "^3.9.2",
