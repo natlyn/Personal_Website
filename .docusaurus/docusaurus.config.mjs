@@ -10,6 +10,8 @@ export default {
   "baseUrl": "/Personal_Website/",
   "organizationName": "natlyn",
   "projectName": "Personal_Website",
+  "deploymentBranch": "main",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "favicon": "img/main_image.png",
   "presets": [
